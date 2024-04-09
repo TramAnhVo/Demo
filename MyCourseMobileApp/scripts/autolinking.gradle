@@ -1,0 +1,16 @@
+Copy
+rootProject.allprojects {
+   repositories {
+       // repositories configuration
+   }
+}
+
+subprojects {
+   afterEvaluate { project ->
+       if (project.hasProperty("android")) {
+           android {
+               // android configuration
+           }
+       }
+   }
+}
