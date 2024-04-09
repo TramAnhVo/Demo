@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Can",
+    "slug": "Can",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "Can"
+}
